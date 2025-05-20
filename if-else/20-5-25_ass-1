@@ -1,0 +1,58 @@
+menu = {'veg fried rice':120,
+        'chicken fried rice':150,
+        'double egg chicken fried rice':300,
+        'chicken 65':200,
+        'manchuriyan fried rice':120,
+        'manchuriyan':80, 
+        'chicken noodels':150
+        }
+
+bill = 0
+
+user_input1 = input('enter a dish :')
+if user_input1 in  menu:
+   no_of_iteams = int(input('enter number of iteams :'))
+   bill += no_of_iteams*menu[user_input1]
+
+else:
+   print('no dish is found,please enter another dish')
+
+user_input2 = input('enter a dish :')
+if user_input2 in  menu:
+    no_of_iteams = int(input('enter number of iteams :'))
+    bill += no_of_iteams*menu[user_input2]
+
+else:
+    print('no dish is found,please enter another dish')
+
+user_input3 = input('enter a dish :')
+if user_input3 in  menu:
+    no_of_iteams = int(input('enter number of iteams :'))
+    bill += no_of_iteams*menu[user_input3]
+
+else:
+    print('no dish is found,please enter another dish')
+
+user_input4 = input('enter a dish :')
+if user_input4 in  menu:
+    no_of_iteams = int(input('enter number of iteams :'))
+    bill += no_of_iteams*menu[user_input4]
+
+else:
+    print('no dish is found,please enter another dish')
+      
+
+
+
+
+print('your total bill is :',bill)
+
+
+
+# for i in range(0,4):
+
+#     user_input1 = input('enter a dish :')
+#     if user_input1 in  menu:
+#         no_of_iteams = int(input('enter number of iteams :'))
+#         bill += no_of_iteams*menu[user_input1]
+# print('your total bill is :',bill)
