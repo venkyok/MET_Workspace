@@ -2,8 +2,8 @@ menu = {'veg fried rice':120,
         'chicken fried rice':150,
         'double egg chicken fried rice':300,
         'chicken 65':200,
-        'manchuriyan fried rice':120,
-        'manchuriyan':80, 
+        'manchurian fried rice':120,
+        'manchurian':80, 
         'chicken noodels':150
         }
 
