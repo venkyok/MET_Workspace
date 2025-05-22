@@ -1,0 +1,12 @@
+categories = {
+   "clothes": ["shirt", "jeans"],
+   "electronics": ["phone", "charger"]
+}
+
+user_cat = input("enter the category of item :")
+
+if user_cat in categories:
+    print(categories[user_cat])
+
+else:
+    print('Invalid category')

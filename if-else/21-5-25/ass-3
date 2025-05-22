@@ -1,0 +1,12 @@
+locations = [(12.9716, 77.5946)]
+user_lat = float(input("enter the latitude :"))
+user_long = float(input("enter the longitude :"))
+
+new_cord = (user_lat,user_long)
+
+if new_cord in locations:
+    print('Location already exists.')
+else:
+    locations.append(new_cord)
+
+print(locations)

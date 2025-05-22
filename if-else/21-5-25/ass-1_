@@ -1,0 +1,22 @@
+#ass -1
+
+a=3 
+cart = [{'id':1,'name':'shirt','qty':1}]
+
+pro_id = int(input("enter the product id :"))
+pro_name= input('enter the product name :')
+pro_qty = int(input())
+new_dict={'id':pro_id,'name':pro_name,'qty':pro_qty}
+
+if pro_id in cart:
+    print('iteam already exist ')
+
+else:
+    cart.append(new_dict)
+
+print(cart)
+
+# ass-2 
+
+
+
